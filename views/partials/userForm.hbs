@@ -1,0 +1,72 @@
+<div class='col-6'>
+  <div class='form-floating mb-3'>
+    <input
+      name='first_name'
+      type='text'
+      class='form-control'
+      id='floatingInput'
+      value='{{this.first_name}}'
+      placeholder='First Name'
+    />
+    <label for='floatingInput'>First Name</label>
+  </div>
+</div>
+
+<div class='col-6'>
+  <div class='form-floating mb-3'>
+    <input
+      name='last_name'
+      type='text'
+      class='form-control'
+      id='floatingInput'
+      value='{{this.last_name}}'
+      placeholder='Last Name'
+    />
+    <label for='floatingInput'>Last Name</label>
+  </div>
+</div>
+
+<div class='col-6'>
+  <div class='form-floating mb-3'>
+    <input
+      name='email'
+      type='email'
+      class='form-control'
+      id='floatingInput'
+      value='{{this.email}}'
+      placeholder='Email@email.com'
+    />
+    <label for='floatingInput'>Email Address</label>
+  </div>
+</div>
+
+<div class='col-6'>
+  <div class='form-floating mb-3'>
+    <input
+      name='mobile_number'
+      type='text'
+      class='form-control'
+      id='floatingInput'
+      value='{{this.mobile_number}}'
+      placeholder='Mobile Number'
+    />
+    <label for='floatingInput'>Mobile Number</label>
+  </div>
+</div>
+
+<div class='col-8 mx-auto'>
+  <div class='form-floating mb-3'>
+    <textarea
+      name='comments'
+      class='form-control'
+      id='comments'
+      placeholder='Comments'
+      style='height: 150px'
+    >{{this.comments}}</textarea>
+    <label for='comments'>Comments</label>
+  </div>
+
+  <div class='col-12 d-grid'>
+    <button class='btn btn-primary' type='submit'>Submit</button>
+  </div>
+</div>
